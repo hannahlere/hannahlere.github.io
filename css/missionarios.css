@@ -1,0 +1,96 @@
+/** SIPIT - 07.2015 **/
+
+body{
+	background-color: #C1D9E8;
+}
+
+.margem {
+	margin-right: 0;
+}
+
+div#header_principal h1, div#header_principal h2{
+	margin-top: 0.5em;
+	margin-bottom: 0.2em;
+	color:#0D0C7F;
+}
+
+div#header_principal h2 {
+	margin-top: 0.6em;
+	margin-left: 1.825em;
+}
+
+div#header_principal blockquote {
+	font-size: 14px;
+	font-style: italic;
+}
+
+.jesus {float: right;}
+
+/** Páginas Internas - Início **/
+
+img{
+	max-width: 100%;
+}
+
+.colunaModulo{
+	height: 3.9375em;
+	text-align: right;
+	padding-right: 0.125em;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+  border: 1px solid hsl(182, 27%, 54%);
+}
+
+thead{
+	background-color: hsl(182, 81%, 28%);
+	color: hsl(0, 100%, 100%);
+}
+
+.table.table-modules > tbody > tr > td {
+	vertical-align: middle;
+}
+
+.table-modules .btn.btn-link {
+	padding: 6px 0;
+}
+
+.container{
+	background-color: #ffffff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px; 
+}
+
+#localizacao, #address_sede, #localizacao iframe{margin: 0.625em 0;}
+
+#agendas{margin: 1.25em 0 0.625em;}
+
+#footer{font-size: 12px;}
+
+#redes_sociais a {color: #ffffff;}
+
+#address_sede{
+	background-color: rgba(36, 38, 40, 0.6);
+	background: rgba(36, 38, 40, 0.6);
+	color: rgba(36, 38, 40, 0.6);
+
+	color:#ffffff;
+}
+
+div.form-group input.form_modal {width: 100%;}
+/** Páginas Internas - Fim **/
+
+div#myCarousel{
+	margin: 10px 0;
+}
+
+div#myCarousel.carousel.slide{
+	background-color: rgba(45, 44, 44, 0.4);
+	background: rgba(45, 44, 44, 0.4);
+	color: rgba(45, 44, 44, 0.4);
+}
+
+.marketing{
+	margin: 10px 0;
+}

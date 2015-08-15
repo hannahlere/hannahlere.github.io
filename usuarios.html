@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tribunal Regional Federal da 5ª Região - Autenticação</title>
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="Portal da Justiça Federal da 5ª Região">
+	<meta name="contact" content="sipit@trf5.jus.br">
+	<meta name="author" content="Tribunal Regional Federal da 5ª Região, Subsecretaria de Tecnologia da Informação, SIPIT, Setor de Portais e Usabilidade de Software e Seção de Arquitetura de Sistemas">
+	<meta name="keywords" content="Justiça Federal, Autenticação">
+
+	<link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/autenticacao.css" rel="stylesheet">
+	<link href="css/mediaqueries.css" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+		<link href="css/styleIE8.css" rel="stylesheet">
+	<![endif]-->
+
+	<!--[if IE]>
+		<style type="text/css">
+			.caret {
+			float: none;
+			margin-top: 0px;
+			}
+		</style>			
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+		<script src="js/modernizr24092014.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<div id="header_principal">
+		<div id="background-divgrey"><img  class="img-responsive" src="img/LogoTRF5.png" title="Logo do Tribunal Regional Federal da 5ª Região" alt="Logo do Tribunal Regional Federal da 5ª Região" /></div>
+		<h1>Subsecretaria de Tecnologia da Informação</h1>
+		<div class="navbar">
+			<h2 class="navbar-left">Sistema de Autenticação</h2>
+          	<p class="navbar-right margem">
+            <button type="button" class="btn btn-link divbluebutton"><span class="fa fa-envelope"><a href="contatos.html" title="Entre em contato conosco"></span>&nbsp;Contato</button></a>
+          	</p>
+        </div>
+		<nav class="navbar navbar-inverse">
+  			<div class="container-fluid">
+	    	<!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="paginainicial.html" title="Página Principal"><span class="fa fa-cubes"></span></a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			    <ul class="nav navbar-nav">
+			    	<li><a href="modulos.html">Módulos </a></li>
+			    	<li><a href="grupos.html">Grupos </a></li>
+			        <li class="active"><a href="usuarios.html">Usuários </a></li>
+			        <li><a href="perfis.html">Perfis <span class="sr-only">(current)</span></a></li>
+			    </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</div>
+	<div class="container-fluid">
+		<div class="navbar">
+          	<h2 class="navbar-left"><span class="fa fa-user"></span>&nbsp;Usuários</h2>
+          	<div class="navbar-right">
+	          	<div class="btn-group">
+		          	<button type="button" class="btn btn-primary divbluebutton dropdown-toggle" data-toggle="dropdown"><span class="fa fa-user-plus"></span>&nbsp;Inserir Novo Usuário <span class="caret"></span></button>
+		          	<ul class="dropdown-menu" role="menu">
+				    	<li><a href="usuarios/inserirmanualmenteusuario.html">Inserir Manualmente</a></li>
+				    	<li><a href="usuarios/inseriremmassausuario.html">Autorização em Massa</a></li>
+		   			</ul>
+	          	</div>
+	        </div>
+        </div>
+    	<hr>
+    	<table class="table table-condensed table-bordered table-hover table-responsive table-modules">
+    		<thead>
+	 			<tr>
+	 				<th>Nome do Usuários</th>
+	 				<th>Lotação</th>
+	 				<th>Perfil (is)</th>
+	 				<th>Ramal</th>
+	 				<th>Excluir</th>
+	 			</tr>
+	 		</thead>
+	 		<tbody>
+	 			<tr>
+	 				<td><a href="#">Rodrigo Pereira da Cunha</a></td>
+	 				<td>Seção de Arquitetura de Sistemas</td>
+	 				<td>
+	 					<ul>
+	 						<li><a href="#">Super Usuário</a></li>
+	 					</ul>
+	 				</td>
+	 				<td>9306</td>
+	 				<td class="text-center"><a href="#" title="Excluir"><span class="fa fa-times-circle-o fa-lg"></span></a></td>
+	 			</tr>
+	 			<tr>
+	 				<td><a href="#">Sebastiano Andragônio</a></td>
+	 				<td>Divisão de Comunicação Social</td>
+	 				<td>
+	 					<ul>
+	 						<li><a href="#">Jornal Mural - Autor</a></li>
+	 						<li><a href="#">Noticias - Editor</a></li>
+	 					</ul>
+	 				</td>
+	 				<td>9018</td>
+	 				<td class="text-center"><a href="#" title="Excluir"><span class="fa fa-times-circle-o fa-lg"></span></a></td>
+	 			</tr>
+	 			<tr>
+	 				<td><a href="#">Filismina Macomunada</a></td>
+	 				<td>Biblioteca</td>
+	 				<td>
+	 					<ul>
+	 						<li><a href="#">Biblioteca (Atos) - Autor</a></li>
+	 						<li><a href="#">Biblioteca (Produção Intelectual dos Desembargadores) - Editor</a></li>
+	 					</ul>
+	 				</td>
+	 				<td>9451</td>
+	 				<td class="text-center"><a href="#" title="Excluir"><span class="fa fa-times-circle-o fa-lg"></span></a></td>
+	 			</tr>
+	 			<tr>
+	 				<td><a href="#">Chifrolano Beltr Ano</a></td>
+	 				<td>Secretaria Judiciária</td>
+	 				<td>
+	 					<ul>
+	 						<li><a href="#">Estatísticas - Autor</a></li>
+	 						<li><a href="#">Metas - Editor</a></li>
+	 					</ul>
+	 				</td>
+	 				<td>3333</td>
+	 				<td class="text-center"><a href="#" title="Excluir"><span class="fa fa-times-circle-o fa-lg"></span></a></td>
+	 			</tr>
+	 		</tbody>
+		</table>
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<nav>
+					<ul class="pagination" >
+						<li><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+					    <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+					    <li><a href="#">2</a></li>
+					    <li><a href="#">3</a></li>
+					    <li><a href="#">4</a></li>
+					    <li><a href="#">5</a></li>
+					    <li><a href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+	</div>
+
+	<!-- Modal - Início -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      	<div class="modal-body">
+			        	<div class="row">
+								<div class="col-lg-12">
+									<div class="text-center"><h2><b>Recuperação de Senha</b></h2></div>
+									<form id="register-form" role="form" autocomplete="off">
+										<div class="form-group">
+											<label for="email">Endereço de Email</label>
+											<input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Endereço de Email" value="" autocomplete="off" required/>
+										</div>
+										<div class="form-group">
+											<div class="row">
+												<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+													<input type="submit" name="recover-submit" id="recover-submit" tabindex="2" class="form-control btn btn-success" value="Enviar" />
+												</div>
+											</div>
+										</div>
+										<input type="hidden" class="hide" name="token" id="token" value="aba4a1063f85d3b0ac47f1d5bc3fefa4">
+									</form>
+								</div>
+							</div>
+			    		</div>
+			    	</div>
+			    </div>
+			</div>
+		</div>
+		<!-- Modal - Fim -->
+
+	<!-- JavaScripts Utilizados no Portal da Justiça Federal da 5ª Região -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+	<!-- Fim dos JavaScripts Utilizados no Portal da Justiça Federal da 5ª Região -->
+</body>
+</html>

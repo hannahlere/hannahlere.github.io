@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tribunal Regional Federal da 5ª Região - Autenticação</title>
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="Portal da Justiça Federal da 5ª Região">
+	<meta name="contact" content="sipit@trf5.jus.br">
+	<meta name="author" content="Tribunal Regional Federal da 5ª Região, Subsecretaria de Tecnologia da Informação, SIPIT, Setor de Portais e Usabilidade de Software e Seção de Arquitetura de Sistemas">
+	<meta name="keywords" content="Justiça Federal, Autenticação">
+
+	<link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/autenticacao.css" rel="stylesheet">
+	<link href="css/mediaqueries.css" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+		<link href="css/styleIE8.css" rel="stylesheet">
+	<![endif]-->
+
+	<!--[if IE]>
+		<style type="text/css">
+			.caret {
+			float: none;
+			margin-top: 0px;
+			}
+		</style>			
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+		<script src="js/modernizr24092014.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<div id="header_principal">
+		<div id="background-divgrey"><img  class="img-responsive" src="img/LogoTRF5.png" title="Logo do Tribunal Regional Federal da 5ª Região" alt="Logo do Tribunal Regional Federal da 5ª Região" /></div>
+		<h1>Subsecretaria de Tecnologia da Informação</h1>
+		<div class="navbar">
+			<h2 class="navbar-left">Sistema de Autenticação</h2>
+          	<p class="navbar-right margem">
+            <button type="button" class="btn btn-link divbluebutton"><span class="fa fa-envelope"><a href="contatos.html" title="Entre em contato conosco"></span>&nbsp;Contato</button></a>
+          	</p>
+        </div>
+		<nav class="navbar navbar-inverse">
+  			<div class="container-fluid">
+	    	<!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="paginainicial.html" title="Página Principal"><span class="fa fa-cubes"></span></a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			    <ul class="nav navbar-nav">
+			    	<li><a href="modulos.html">Módulos </a></li>
+			    	<li class="active"><a href="grupos.html">Grupos <span class="sr-only">(current)</span></a></li>
+			        <li ><a href="usuarios.html">Usuários </a></li>
+			        <li ><a href="perfis.html">Perfis </a></li>        
+			    </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</div>
+	<div class="container-fluid">
+		<div class="navbar">
+          <h2 class="navbar-left"><span class="fa fa-group"></span>&nbsp;Grupos</h2>
+          <p class="navbar-right"><a href="grupos/novosgrupos.html" class="btn btn-primary divbluebutton"><span class="fa fa-plus"></span>&nbsp;<span class="fa fa-group"></span>&nbsp;Inserir Novo Grupo</a></p>
+        </div>
+    	<hr>
+    	<table class="table table-condensed table-bordered table-hover table-responsive table-modules">
+    		<thead>
+	 			<tr>
+	 				<th>Nome do Grupo</th>
+	 				<th>Descrição</th>
+	 				<th>Módulo(s)</th>
+	 				<th>Excluir</th>
+	 			</tr>
+	 		</thead>
+	 		<tbody>
+	 			<tr>
+	 				<td><a href="#">Administradores</a></td>
+	 				<td>Aliquam posuere lacus id magna.</td>
+	 				<td>
+	 					<ul>
+	 						<li><a href="#">Biblioteca - Atos (01)</a></li>
+	 					</ul>
+	 				</td>
+	 				<td class="text-center"><a href="#" title="Excluir"><span class="fa fa-times-circle-o fa-lg"></span></a></td>
+	 			</tr>
+	 			<tr>
+	 				<td><a href="#">Autores</a></td>
+	 				<td>Aliquam posuere lacus id magna.</td>
+	 				<td>
+	 					<ul>
+	 						<li><a href="#">Biblioteca - Atos (03)</a></li>
+	 						<li><a href="#">Comunicação Social - Jornal Mural (03)</a></li>
+	 					</ul>
+	 				</td>
+	 				<td class="text-center"><a href="#" title="Excluir"><span class="fa fa-times-circle-o fa-lg"></span></a></td>
+	 			</tr>
+	 			<tr>
+	 				<td><a href="#">Editores</a></td>
+	 				<td>Aliquam posuere lacus id magna.</td>
+	 				<td>
+	 					<ul>
+	 						<li><a href="#">Secretaria Judiciária - Estatísticas (05)</a></li>
+	 						<li><a href="#">Secretaria Judiciária - Metas (02)</a></li>
+	 						<li><a href="#">Corregedoria - Atos (05)</a></li>
+	 					</ul>
+	 				</td>
+	 				<td class="text-center"><a href="#" title="Excluir"><span class="fa fa-times-circle-o fa-lg"></span></a></td>
+	 			</tr>
+	 			<tr>
+	 				<td><a href="#">Super Usuários</a></td>
+	 				<td>Aliquam posuere lacus id magna.</td>
+	 				<td>
+	 					<ul>
+	 						<li><a href="#">Sem restrição ao Sistema de Autenticação</a></li>
+	 					</ul>
+	 				</td>
+	 				<td class="text-center"><a href="#" title="Excluir"><span class="fa fa-times-circle-o fa-lg"></span></a></td>
+	 			</tr>
+	 			<tr>
+	 				<td><a href="#">Visitantes</a></td>
+	 				<td>Aliquam posuere lacus id magna.</td>
+	 				<td>
+	 					<ul>
+	 						<li><a href="#">Secretaria Judiciária - Estatísticas</a></li>
+	 					</ul>
+	 				</td>
+	 				<td class="text-center"><a href="#" title="Excluir"><span class="fa fa-times-circle-o fa-lg"></span></a></td>
+	 			</tr>
+	 		</tbody>
+		</table>
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<nav>
+					<ul class="pagination" >
+						<li><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+					    <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+					    <li><a href="#">2</a></li>
+					    <li><a href="#">3</a></li>
+					    <li><a href="#">4</a></li>
+					    <li><a href="#">5</a></li>
+					    <li><a href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+	</div>
+
+	
+	<!-- JavaScripts Utilizados no Portal da Justiça Federal da 5ª Região -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+	<!-- Fim dos JavaScripts Utilizados no Portal da Justiça Federal da 5ª Região -->
+</body>
+</html>
